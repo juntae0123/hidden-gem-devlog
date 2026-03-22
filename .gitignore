@@ -1,0 +1,22 @@
+# 1. 환경 변수 및 보안 (절대 유출 금지!)
+.env
+.env.*
+
+# 2. 데이터 파일 (Git은 코드 저장소이지, 데이터 저장소가 아닙니다!)
+*.csv
+*.xlsx
+*.json
+/data/
+
+# 3. 주피터 노트북 찌꺼기 파일
+.ipynb_checkpoints/
+
+# 4. 파이썬 환경 및 캐시 파일
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# 5. OS 시스템 파일
+.DS_Store
+Thumbs.db
