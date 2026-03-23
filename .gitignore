@@ -6,7 +6,9 @@
 *.csv
 *.xlsx
 *.json
-/data/
+*.pkl   
+/data/*
+!/data/.gitkeep
 
 # 3. 주피터 노트북 찌꺼기 파일
 .ipynb_checkpoints/
